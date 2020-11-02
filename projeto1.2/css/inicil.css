@@ -1,0 +1,54 @@
+*{margin: 0; padding: 0;}
+
+#texto {
+    font-size: 40pt;
+    position: absolute;
+    top: 4%;
+    right: 10%;
+}
+/*FORMATAÇÃO DE FUNDO*/
+#log {
+    margin-left: 1%;
+}
+
+nav#menu ol {
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 10pt;
+    margin: 2.4% 1% 1% 1%;
+    padding: 1%;
+    height: 72%; 
+}
+
+
+ /*Formatação do menu*/
+ nav#menu a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;    
+
+}
+ 
+
+ nav#menu ul {
+     list-style: none;
+      }
+
+ nav#menu li {
+          position: relative;
+          box-sizing: border-box;
+          box-shadow: 2px 2px 1px rgb(0 0 0);
+          font-size: 22pt;
+          display: inline-block;
+          background-color: rgb(250, 204, 1);
+          border-radius: 10pt;
+          text-align: center;
+          padding: 1%;
+          margin: 1% 2%;
+          width: 20.7%;
+          transition: background-color 0.51s;
+      }
+nav#menu li:hover {
+    background-color: rgb(252, 252, 252);
+
+}
+
+
